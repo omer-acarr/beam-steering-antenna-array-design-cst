@@ -1,0 +1,2 @@
+*.cstarchive filter=lfs diff=lfs merge=lfs -text
+*.cst filter=lfs diff=lfs merge=lfs -text
