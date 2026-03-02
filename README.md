@@ -1,26 +1,26 @@
 # 4x1 Microstrip Patch Antenna Array Design & Beam Steering Analysis
 
-[cite_start]This repository contains the design, simulation, and advanced system-level analysis of a 4-element linear microstrip patch antenna array[cite: 8]. The project bridges the gap between electromagnetic full-wave simulation (CST) and numerical system modeling (MATLAB).
+This repository contains the design, simulation, and advanced system-level analysis of a 4-element linear microstrip patch antenna array. The project bridges the gap between electromagnetic full-wave simulation (CST) and numerical system modeling (MATLAB).
 
 ## 🛠 Design & Hardware Specifications
 
 | Parameter | Value |
 | :--- | :--- |
-| **Operating Frequency** | [cite_start]2.4 GHz [cite: 8] |
-| **Substrate** | [cite_start]Rogers RT-duroid 5880 (lossy) [cite: 8] |
-| **Dielectric Constant ($\epsilon_r$)** | [cite_start]2.2 [cite: 8] |
-| **Substrate Height ($h$)** | [cite_start]1.6 mm [cite: 8] |
-| **Feed Technique** | [cite_start]Corporate Feed with $\lambda/4$ Transformers [cite: 8] |
+| **Operating Frequency** | 2.4 GHz |
+| **Substrate** | Rogers RT-duroid 5880 (lossy) |
+| **Dielectric Constant ($\epsilon_r$)** | 2.2 |
+| **Substrate Height ($h$)** | 1.6 mm |
+| **Feed Technique** | Corporate Feed with $\lambda/4$ Transformers |
 
 ## 📊 Simulation & Numerical Performance
 
-[cite_start]The design was first optimized in **CST Studio Suite 2025** [cite: 9] and subsequently analyzed in **MATLAB** for dynamic scanning characteristics:
+The design was first optimized in **CST Studio Suite 2025** and subsequently analyzed in **MATLAB** for dynamic scanning characteristics:
 
-* [cite_start]**Resonance Frequency:** 2.4 GHz[cite: 9].
-* [cite_start]**Return Loss ($S_{11}$):** -14.5 dB[cite: 9].
-* [cite_start]**Directivity:** 12.53 dBi[cite: 9].
+* **Resonance Frequency:** 2.4 GHz.
+* **Return Loss ($S_{11}$):** -14.5 dB.
+* **Directivity:** 12.53 dBi.
 * **Scanning Range:** ±60 Degrees validated via MATLAB algorithms.
-* [cite_start]**Mesh Cells:** 1,089,792[cite: 9].
+* **Mesh Cells:** 1,089,792.
 
 ## 🚀 Advanced Phased Array Analysis (MATLAB Integration)
 
@@ -36,8 +36,8 @@ Beyond static EM simulation, the system was subjected to rigorous numerical post
 ## 🏗 System Architecture
 
 The design is modularized within the CST environment for parametric optimization:
-* [cite_start]**Patch Elements:** Four identical rectangular patches designed for 2.4 GHz resonance[cite: 8].
-* [cite_start]**Corporate Feed Network:** A symmetric power divider network ensuring equal amplitude and phase distribution[cite: 8].
-* [cite_start]**Challenges & Solutions:** Phase imbalances and parasitic microstrip effects were mitigated through iterative geometric tuning and adaptive mesh refinement to ensure 180-degree phase shift fidelity[cite: 8].
+* **Patch Elements:** Four identical rectangular patches designed for 2.4 GHz resonance.
+* **Corporate Feed Network:** A symmetric power divider network ensuring equal amplitude and phase distribution.
+* **Challenges & Solutions:** Phase imbalances and parasitic microstrip effects were mitigated through iterative geometric tuning and adaptive mesh refinement to ensure 180-degree phase shift fidelity.
 
 ---
